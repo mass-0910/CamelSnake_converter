@@ -239,13 +239,13 @@ def printConvertUsage():
 if __name__ == "__main__":
     if len(sys.argv) <= 1:
         printUsage()
-        exit(-1)
+        sys.exit(-1)
 
     if sys.argv[1] == "convert":
 
         if len(sys.argv) <= 2:
             printConvertUsage()
-            exit(-1)
+            sys.exit(-1)
         
         converter = Converter(sys.argv[2])
         converter.readRules()
