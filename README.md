@@ -9,9 +9,9 @@ Pythonのソースコードをキャメルケースまたはスネークケー�
 `src`以下にある`setting.json`内のそれぞれの値を変更してください。
 ```setting.json
 {
-    "class": "pascal", // クラスはパスカルケースに変換
-    "var": "snake", // 変数はスネークケースに変換
-    "func": "camel" // 関数はキャメルケースに変換
+    "class": "pascal",
+    "var": "snake",
+    "func": "camel"
 }
 ```
 
